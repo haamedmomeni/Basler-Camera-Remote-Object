@@ -1,7 +1,7 @@
 # Basler-Camera-Remote-Object
 
 ## Overview
-The Basler Shear Calculator is designed to capture frames from a Basler camera and calculate the shear of a spotlight. This application relies on the Basler Pylon software being installed and the camera being connected to the machine. The shear is calculated by finding the difference in the x and y coordinates of two predefined boxes around the spotlight. 
+The Basler Shear Calculator is developed to capture several frames from a Basler camera, averag them, and calculate the centroid of a spotlight on the frames. This application relies on the Basler Pylon library being installed and the camera being connected to the machine. The relative centroid (shear) is calculated by finding the difference in the x and y coordinates of two predefined boxes around two spotlight, reference spotlight and moving spotlight.
 
 ## Author
 - Hamed Momeni @ MROI, 2024
